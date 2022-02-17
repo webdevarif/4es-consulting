@@ -1,0 +1,21 @@
+.form{
+
+  &__control-border,
+  &__control{
+    padding: var(--form-control-padding, rem(10px) rem(15px));
+    height: var(--form-control-height, 50px);
+    background: var(--form-control-bg, transparent);
+  }
+  &__control-border{
+    border: 2px solid var(--form-control-border, $white);
+  }
+  &__control-height{
+    height: var(--form-control-height, 50px);
+  }
+
+  &__placeholder-light{
+    @include placeholder(){
+      color: $gray-400;
+    }
+  }
+}

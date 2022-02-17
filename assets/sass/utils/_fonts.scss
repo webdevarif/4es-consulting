@@ -1,0 +1,22 @@
+// Font Family
+@each $name, $family in $ff-list {
+  .ff__#{$name}{
+      font-family: $family !important;
+  }
+}
+@each $name, $value in $sizes-list {
+  .fs__#{$name}{
+      font-size: $value !important;
+  }
+}
+
+@each $name, $weight in (
+  'light': 300, 'regular': 400, 'medium': 500, 'semibold': 500, 'bold': 600, 'extrabold': 700, 'black': 900, '300': 300, '400': 400, '500':500, '600':600, '700':700, '800':800, '900':900, ) {
+  .fw__#{$name}{font-weight: $weight !important;}
+}
+@each $name, $height in ('sm': 1.3, 'md':1.5, 'lg':1.8, 'xl':2, '2xl': 2.3, '3xl': 2.5) {
+  .lh__#{$name}{line-height: $height !important;}
+}
+@each $name, $height in ('sm': 0.03em, 'md':0.07em, 'lg':0.1em, 'xl':0.13em, '2xl': 0.16em, '3xl': 0.2em) {
+  .ls__#{$name}{letter-spacing: $height !important;}
+}

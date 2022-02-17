@@ -1,0 +1,8 @@
+.section__learning-hub{
+    position: relative;
+    padding: var(--section-learning-hub-padding, rem(150px) 0);
+
+    @include media-breakpoint-up(lg){
+        --section-learning-hub-padding: #{rem(230px) 0};
+    }
+}

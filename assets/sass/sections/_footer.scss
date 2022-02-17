@@ -1,0 +1,41 @@
+.footer{
+    position: relative;
+    --footer-gap: 230px;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: calc(var(--footer-gap) * -1);
+    z-index: 99;
+    padding: rem(220px) 0px rem(40px);
+    overflow: hidden;
+    @include media-breakpoint-up(lg){
+        --footer-gap: #{rem(150px)};
+    }
+
+    a, a:hover{
+        color: inherit;
+    }
+    
+    &__links-inline {
+        li:not(:first-child){
+        padding-left: 15px;
+        position: relative;
+        --list-item-dice-size: 5px; 
+
+            &::before{
+                content: "";
+                width: var(--list-item-dice-size);
+                height: var(--list-item-dice-size);
+                display: inline-block;
+                border-radius: 50em;
+                background: $white;
+                position: absolute;
+                left: 0px; top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        li{
+            padding-right: 5px;
+        }
+    }
+}

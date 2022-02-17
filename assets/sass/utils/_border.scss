@@ -1,0 +1,3 @@
+@each $name, $radius in ( 'sm': rem(5px), 'md': rem(10px), 'lg': rem(16px), 'xl': rem(25px), 'pill': 50em, 'circle': 50%, ) {
+    .rounded__#{$name}{border-radius: #{$radius} !important;}
+}

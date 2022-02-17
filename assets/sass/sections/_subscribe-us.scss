@@ -1,0 +1,17 @@
+.section__subscribe-us{
+    background: $gray-200;
+    background-position: top right;
+    background-size: cover;
+    padding: var(--section-subscribeus-padding, 10em 0);
+    position: relative;
+    z-index: 1;
+
+    @include media-breakpoint-up(xl){
+        --section-subscribeus-padding: 31em 0 17em
+    }
+
+
+    .form__control::placeholder{
+        color: $white;
+    }
+}

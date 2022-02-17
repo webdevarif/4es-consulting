@@ -1,0 +1,19 @@
+.icn{
+    --avs-size: #{rem(40px)};
+    min-width: var(--avs-size);
+    width: var(--avs-size);
+    height: var(--avs-size);
+
+    @each $size in (30, 50, 70, 60, 100) {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+            @include media-breakpoint-up($breakpoint) {
+            $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+        
+            // Font Sizes
+                &#{$infix}__#{$size}, .size#{$infix}__#{$size}{
+                    --avs-size: #{$size}px !important;
+                }
+            }
+        }    
+    }
+}

@@ -1,0 +1,40 @@
+.body-overlay {
+  background: rgba($black, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  visibility: hidden;
+  width: 100%;
+  cursor: crosshair;
+  z-index: $zindex-overlay;
+}
+.mobile-menu-active .body-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+// Overlay
+[data-overlay] {
+    position: var(--overlay-att-position, relative);
+    z-index: var(--overlay-att-zIndex, 1);
+  
+    &:before {
+      position: var(--overlay-position, absolute);
+      content: "";
+      background: var(--overlay-bg, #{$black});
+      width: 100%;
+      height: 100%;
+      top: 0; left: 0;
+      z-index: var(--overlay-zIndex, #{$zindex-negative});
+    }
+  }
+  // Overlay ALpha
+  @for $alpha from 0 to 11 {
+    [data-overlay="#{$alpha}"]:before {
+      opacity: var(--overlay-opacity, calc(#{$alpha} / 10));
+    }
+  }

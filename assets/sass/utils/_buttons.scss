@@ -1,0 +1,90 @@
+// BUTTON COLORS
+.btn {
+  border: 2px solid;
+  text-decoration: none;
+  font-size: var(--btn-fs, $fs-md);
+  border-radius: var(--btn-radius, 0.25rem);
+  font-weight: var(--btn-weight, 600);
+  padding: var(--btn-padding-y, 0.75rem) var(--btn-padding-x, 2rem);
+  color: var(--btn-color, inherit);
+  background: var(--btn-bg, transparent);
+  cursor: pointer;
+  white-space: nowrap;
+
+
+  &__primary{
+    background-color: $primary;
+    color: $white;
+    border-color: $primary;
+
+    &-outline:hover,
+    &:hover{
+      background: darken($primary, 8%);
+      color: $white;
+    }
+
+
+    &-outline{
+      border-color: $primary;
+      background: transparent;
+      color: $primary;
+    }
+  }
+
+  &__secondary{
+    background-color: $secondary;
+    color: $white;
+    border-color: $secondary;
+
+    &-outline:hover,
+    &:hover{
+      background: darken($secondary, 8%);
+      color: $white;
+    }
+
+
+    &-outline{
+      border-color: $secondary;
+      background: transparent;
+      color: $secondary;
+    }
+  }
+
+  &__light{
+    background-color: $gray-100;
+    color: $primary;
+    border-color: $gray-100;
+
+    &-outline:hover,
+    &:hover{
+      background: darken($gray-100, 8%);
+      color: $primary;
+    }
+
+
+    &-outline{
+      border-color: $gray-100;
+      background: transparent;
+      color: $gray-100;
+    }
+  }
+
+  &__danger{
+    background-color:$danger;
+    color: $white;
+    border-color:$danger;
+
+    &-outline:hover,
+    &:hover{
+      background: darken($danger, 8%);
+      color: $white;
+    }
+
+
+    &-outline{
+      border-color:$danger;
+      background: transparent;
+      color: $danger;
+    }
+  }
+}

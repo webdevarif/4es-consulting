@@ -1,0 +1,35 @@
+.list{
+
+    &__inline, &__unstyled{ list-style: none;}
+    &__inline li{ display: inline-block;}
+    
+    // SOCIAL LINKS
+    &__social{
+        --social-icon-size: #{rem(40px)};
+        list-style: none;
+
+        li{
+            display: inline-block;
+
+            a{
+                color: inherit;
+                min-width: var(--social-icon-size);
+                width: var(--social-icon-size);
+                height: var(--social-icon-size);
+                line-height: var(--social-icon-size);
+                border: 2px solid $white;
+                display: inline-block;
+                border-radius: 0.5em;
+                text-align: center;
+                transition: all 0.3s ease-in-out;
+
+                &:hover{
+                    opacity: 1;
+                    background: $white;
+                    color: $primary;
+                    border-radius: 0em;
+                }
+            }
+        }
+    }
+}

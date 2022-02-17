@@ -1,0 +1,14 @@
+@each $name in (uppercase, capitalize) {
+    .text__#{$name}{text-transform: $name !important;}
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    
+        // Text Align
+        .text#{$infix}__left, .text#{$infix}__start{ text-align: left !important; }
+        .text#{$infix}__center{ text-align: center !important;}
+        .text#{$infix}__right, .text#{$infix}__end{text-align: right !important;}
+    }
+}    

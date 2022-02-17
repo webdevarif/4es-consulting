@@ -1,0 +1,9 @@
+.hero-area{
+    background-size: cover;
+    background-position: bottom center;
+    padding: rem(150px) 0;
+    
+    @include media-breakpoint-up(lg){
+        height: 100vh;
+    }
+}
