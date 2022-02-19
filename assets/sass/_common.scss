@@ -18,7 +18,7 @@ body {
 body {
   font-size: $fs-md; 
   font-family: $ff-primary;
-  line-height: 1.6;
+  line-height: 1.4;
   font-weight: 400;
   color: $gray-600;
   background-color: $white;
@@ -171,11 +171,4 @@ textarea:focus {
 
 .cursor__pointer{
   cursor: pointer;
-}
-
-// SECTION HEADING
-.section__heading {
-  .line{
-    width: 18rem;
-  }
 }

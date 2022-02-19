@@ -5,11 +5,13 @@
   font-size: var(--btn-fs, $fs-md);
   border-radius: var(--btn-radius, 0.25rem);
   font-weight: var(--btn-weight, 600);
-  padding: var(--btn-padding-y, 0.75rem) var(--btn-padding-x, 2rem);
+  padding: var(--btn-padding-y, rem(10px)) var(--btn-padding-x, rem(33px));
   color: var(--btn-color, inherit);
   background: var(--btn-bg, transparent);
   cursor: pointer;
   white-space: nowrap;
+  min-width: 190px;
+  max-width: 100%;
 
 
   &__primary{

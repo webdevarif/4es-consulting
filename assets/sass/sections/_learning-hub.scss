@@ -3,6 +3,6 @@
     padding: var(--section-learning-hub-padding, rem(150px) 0);
 
     @include media-breakpoint-up(lg){
-        --section-learning-hub-padding: #{rem(230px) 0};
+        --section-learning-hub-padding: #{rem(250px) 0 #{rem(235px)}};
     }
 }

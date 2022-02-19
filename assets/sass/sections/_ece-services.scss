@@ -1,0 +1,14 @@
+.section__ece{
+
+    &-single{
+        margin-bottom: 90px;
+        @include media-breakpoint-up(lg){
+            padding-left: 60px;
+            padding-right: 50px;
+        }
+    }
+
+    .line{
+        transform: translateX(-30px);
+    }
+}

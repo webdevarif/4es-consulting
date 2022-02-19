@@ -14,8 +14,6 @@ TASKS -
     Responsive Check (320X1920) - Done
 
 
-
-
 FINAL PROCESS - 
     Image Compress: -- Done
 
