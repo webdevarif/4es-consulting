@@ -3,7 +3,6 @@
       
 	$(window).on('load', function () {
 		aosAnimation();
-		wowAnimation();
 	});
 
 	preloader();
@@ -234,21 +233,6 @@
 			disable: 'mobile',
 		});
 	}
-
-	/*=============================================
-		=    		 Wow Active  	         =
-	=============================================*/
-	function wowAnimation() {
-		var wow = new WOW({
-			boxClass: 'wow',
-			animateClass: 'animated',
-			offset: 0,
-			mobile: false,
-			live: true
-		});
-		wow.init();
-	}
-
 
 })(jQuery);
 

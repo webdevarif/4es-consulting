@@ -1,3 +1,7 @@
 .section__about-us{
-    padding: rem(170px) 0 rem(120px);
+    padding: var(--section-padding, rem(170px) 0 rem(120px));
+
+    @include media-breakpoint-up(xxl){
+        --section-padding: 18vh 0 15vh;
+    }
 }

@@ -9,6 +9,7 @@
     box-shadow: 0px 0px 9px 0px rgba($black, 0.07);
     padding: rem(20px);
     transition: $transition-base;
+    z-index: 999;
 
     &.sidebar-visible{
         left: 0;

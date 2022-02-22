@@ -28,6 +28,10 @@ body {
   }
 }
 
+p{
+  margin-bottom: 15px;
+}
+
 
 svg,
 img {
@@ -87,7 +91,7 @@ a:focus,
   box-shadow: none;
 }
 
-a:not(.btn):hover {
+a:not(.btn):not(.navbar-brand):hover {
   opacity: 0.6;
   text-decoration: none;
 }
