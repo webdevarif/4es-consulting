@@ -2144,7 +2144,7 @@ textarea:focus {
   order: 6 !important;
 }
 
-.m-auto {
+.m__auto {
   margin: auto !important;
 }
 
@@ -2355,65 +2355,65 @@ textarea:focus {
     align-self: stretch !important;
   }
 
-  .order-sm-first {
+  .order-sm__first {
     order: -1 !important;
   }
 
-  .order-sm-0 {
+  .order-sm__0 {
     order: 0 !important;
   }
 
-  .order-sm-1 {
+  .order-sm__1 {
     order: 1 !important;
   }
 
-  .order-sm-2 {
+  .order-sm__2 {
     order: 2 !important;
   }
 
-  .order-sm-3 {
+  .order-sm__3 {
     order: 3 !important;
   }
 
-  .order-sm-4 {
+  .order-sm__4 {
     order: 4 !important;
   }
 
-  .order-sm-5 {
+  .order-sm__5 {
     order: 5 !important;
   }
 
-  .order-sm-last {
+  .order-sm__last {
     order: 6 !important;
   }
 
-  .m-sm-auto {
+  .m-sm__auto {
     margin: auto !important;
   }
 
-  .mx-sm-auto {
+  .mx-sm__auto {
     margin-right: auto !important;
     margin-left: auto !important;
   }
 
-  .my-sm-auto {
+  .my-sm__auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
 
-  .mt-sm-auto {
+  .mt-sm__auto {
     margin-top: auto !important;
   }
 
-  .me-sm-auto {
+  .me-sm__auto {
     margin-right: auto !important;
   }
 
-  .mb-sm-auto {
+  .mb-sm__auto {
     margin-bottom: auto !important;
   }
 
-  .ms-sm-auto {
+  .ms-sm__auto {
     margin-left: auto !important;
   }
 }
@@ -2598,65 +2598,65 @@ textarea:focus {
     align-self: stretch !important;
   }
 
-  .order-md-first {
+  .order-md__first {
     order: -1 !important;
   }
 
-  .order-md-0 {
+  .order-md__0 {
     order: 0 !important;
   }
 
-  .order-md-1 {
+  .order-md__1 {
     order: 1 !important;
   }
 
-  .order-md-2 {
+  .order-md__2 {
     order: 2 !important;
   }
 
-  .order-md-3 {
+  .order-md__3 {
     order: 3 !important;
   }
 
-  .order-md-4 {
+  .order-md__4 {
     order: 4 !important;
   }
 
-  .order-md-5 {
+  .order-md__5 {
     order: 5 !important;
   }
 
-  .order-md-last {
+  .order-md__last {
     order: 6 !important;
   }
 
-  .m-md-auto {
+  .m-md__auto {
     margin: auto !important;
   }
 
-  .mx-md-auto {
+  .mx-md__auto {
     margin-right: auto !important;
     margin-left: auto !important;
   }
 
-  .my-md-auto {
+  .my-md__auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
 
-  .mt-md-auto {
+  .mt-md__auto {
     margin-top: auto !important;
   }
 
-  .me-md-auto {
+  .me-md__auto {
     margin-right: auto !important;
   }
 
-  .mb-md-auto {
+  .mb-md__auto {
     margin-bottom: auto !important;
   }
 
-  .ms-md-auto {
+  .ms-md__auto {
     margin-left: auto !important;
   }
 }
@@ -2841,65 +2841,65 @@ textarea:focus {
     align-self: stretch !important;
   }
 
-  .order-lg-first {
+  .order-lg__first {
     order: -1 !important;
   }
 
-  .order-lg-0 {
+  .order-lg__0 {
     order: 0 !important;
   }
 
-  .order-lg-1 {
+  .order-lg__1 {
     order: 1 !important;
   }
 
-  .order-lg-2 {
+  .order-lg__2 {
     order: 2 !important;
   }
 
-  .order-lg-3 {
+  .order-lg__3 {
     order: 3 !important;
   }
 
-  .order-lg-4 {
+  .order-lg__4 {
     order: 4 !important;
   }
 
-  .order-lg-5 {
+  .order-lg__5 {
     order: 5 !important;
   }
 
-  .order-lg-last {
+  .order-lg__last {
     order: 6 !important;
   }
 
-  .m-lg-auto {
+  .m-lg__auto {
     margin: auto !important;
   }
 
-  .mx-lg-auto {
+  .mx-lg__auto {
     margin-right: auto !important;
     margin-left: auto !important;
   }
 
-  .my-lg-auto {
+  .my-lg__auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
 
-  .mt-lg-auto {
+  .mt-lg__auto {
     margin-top: auto !important;
   }
 
-  .mb-lg-auto {
+  .mb-lg__auto {
     margin-bottom: auto !important;
   }
 
-  .me-lg-auto {
+  .me-lg__auto {
     margin-right: auto !important;
   }
 
-  .ms-lg-auto {
+  .ms-lg__auto {
     margin-left: auto !important;
   }
 }
@@ -3084,65 +3084,65 @@ textarea:focus {
     align-self: stretch !important;
   }
 
-  .order-xl-first {
+  .order-xl__first {
     order: -1 !important;
   }
 
-  .order-xl-0 {
+  .order-xl__0 {
     order: 0 !important;
   }
 
-  .order-xl-1 {
+  .order-xl__1 {
     order: 1 !important;
   }
 
-  .order-xl-2 {
+  .order-xl__2 {
     order: 2 !important;
   }
 
-  .order-xl-3 {
+  .order-xl__3 {
     order: 3 !important;
   }
 
-  .order-xl-4 {
+  .order-xl__4 {
     order: 4 !important;
   }
 
-  .order-xl-5 {
+  .order-xl__5 {
     order: 5 !important;
   }
 
-  .order-xl-last {
+  .order-xl__last {
     order: 6 !important;
   }
 
-  .m-xl-auto {
+  .m-xl__auto {
     margin: auto !important;
   }
 
-  .mx-xl-auto {
+  .mx-xl__auto {
     margin-right: auto !important;
     margin-left: auto !important;
   }
 
-  .my-xl-auto {
+  .my-xl__auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
 
-  .mt-xl-auto {
+  .mt-xl__auto {
     margin-top: auto !important;
   }
 
-  .ms-xl-auto {
+  .ms-xl__auto {
     margin-left: auto !important;
   }
 
-  .me-xl-auto {
+  .me-xl__auto {
     margin-right: auto !important;
   }
 
-  .mb-xl-auto {
+  .mb-xl__auto {
     margin-bottom: auto !important;
   }
 }
@@ -3327,65 +3327,65 @@ textarea:focus {
     align-self: stretch !important;
   }
 
-  .order-xxl-first {
+  .order-xxl__first {
     order: -1 !important;
   }
 
-  .order-xxl-0 {
+  .order-xxl__0 {
     order: 0 !important;
   }
 
-  .order-xxl-1 {
+  .order-xxl__1 {
     order: 1 !important;
   }
 
-  .order-xxl-2 {
+  .order-xxl__2 {
     order: 2 !important;
   }
 
-  .order-xxl-3 {
+  .order-xxl__3 {
     order: 3 !important;
   }
 
-  .order-xxl-4 {
+  .order-xxl__4 {
     order: 4 !important;
   }
 
-  .order-xxl-5 {
+  .order-xxl__5 {
     order: 5 !important;
   }
 
-  .order-xxl-last {
+  .order-xxl__last {
     order: 6 !important;
   }
 
-  .m-xxl-auto {
+  .m-xxl__auto {
     margin: auto !important;
   }
 
-  .mx-xxl-auto {
+  .mx-xxl__auto {
     margin-right: auto !important;
     margin-left: auto !important;
   }
 
-  .my-xxl-auto {
+  .my-xxl__auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
 
-  .mt-xxl-auto {
+  .mt-xxl__auto {
     margin-top: auto !important;
   }
 
-  .me-xxl-auto {
+  .me-xxl__auto {
     margin-right: auto !important;
   }
 
-  .mb-xxl-auto {
+  .mb-xxl__auto {
     margin-bottom: auto !important;
   }
 
-  .ms-xxl-auto {
+  .ms-xxl__auto {
     margin-left: auto !important;
   }
 }
