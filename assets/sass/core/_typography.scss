@@ -1,0 +1,25 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a{
+  color: var(--heading-color, $gray-700);
+  font-family: $ff-secondary;
+}
+
+h1, .h1{
+  font-size: var(--heading-size, $fs-4xl);
+  @include media-breakpoint-up(xl) {
+    --heading-size: #{$fs-6xl};
+  }
+  @include media-breakpoint-between(sm, xl) {
+    --heading-size: #{$fs-5xl};
+  }
+}
+h2, .h2{
+  font-size: var(--heading-size, $fs-3xl);
+  @include media-breakpoint-up(md) {
+    --heading-size: #{$fs-5xl};
+  }
+}
+h3, .h3{font-size: var(--heading-size, $fs-4xl);}
+h4, .h4{font-size: var(--heading-size, $fs-xl);}
+h5, .h5{font-size: var(--heading-size, $fs-lg);}
+h6, .h6{font-size: var(--heading-size, $fs-md);}

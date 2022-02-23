@@ -1,0 +1,61 @@
+
+.offcanvas-menu .main-menu li{
+    position: relative;
+
+    a{
+        display: block;
+        font-size: $fs-sm;
+        font-weight: 500;
+        color: $black;
+        padding: rem(7px) 0px;
+        position: relative;
+    }
+
+    .menu-expand{
+        position: absolute;
+        right: 20px;
+        top: 14px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: $black;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: $transition-base;
+    
+        }
+        
+        &::after {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 100%;
+            left: 50%;
+            bottom: 0;
+            background-color: $black;
+            transform: translateX(-50%);
+            transition: $transition-base;
+        }
+
+    }
+
+    &.active {
+
+        & > .menu-expand {
+
+            &::after {
+                height: 0;
+            }
+        }
+    }
+
+    ul{
+        padding-left: 6%;
+        display: none;
+    }
+}

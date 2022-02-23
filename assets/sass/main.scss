@@ -1,17 +1,20 @@
-// MIXINS 
-@import "./mixins/index";
+// ABSTRACT
+@import "./abstracts/all.scss";
 
-// VARIABLES 
-@import "./variables";
+// BOOTSTRAP 5.1.3@latest
+@import "./vendors/bootstrap/bootstrap.scss";
 
-// COMMON 
-@import "./common";
+// CORE
+@import "./core/all.scss";
 
-// WIDGETS 
-@import "./widgets/index.scss";
+// LAYOUTS
+@import "./layouts/all.scss";
+
+// COMPONENTS
+@import "./components/all.scss";
+
+// PAGES
+@import "./pages/all.scss";
 
 // SECTIONS
-@import "./grid";
-@import "./sections/index";
-@import "./utils/index";
-@import "./pages";
+@import "./sections/all.scss";

@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: $fs-md; 
+  font-family: $ff-primary;
+  line-height: 1.4;
+  font-weight: 400;
+  color: $gray-600;
+  background-color: $white;
+
+  &.loading{
+    visibility: var(--body-visibility, hidden);
+  }
+}
+
+p{
+  margin-bottom: 15px;
+}
+
+
+svg,
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+a,
+svg,
+img,
+.btn,
+.button {
+  -webkit-transition: $transition-base;
+  -moz-transition: $transition-base;
+  -o-transition: $transition-base;
+  transition: $transition-base;
+}
+
+a:focus,
+.btn:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+a:not(.btn):not(.navbar-brand):hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: var(--link-color, $link-color);
+  outline: medium none;
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+*::-moz-selection {
+  background: $primary;
+  color: $white;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: $primary;
+  color: $white;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  color: $white;
+  text-shadow: none;
+}
+
+*::-webkit-input-placeholder {
+  color: var(--placeholder-color, $gray-600);
+  font-size: 80%;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: var(--placeholder-color, $gray-600);
+  font-size: 80%;
+  opacity: 1;
+}
+
+*::-ms-input-placeholder {
+  color: var(--placeholder-color, $gray-600);
+  font-size: 80%;
+  opacity: 1;
+}
+
+*::placeholder {
+  color: var(--placeholder-color, $gray-600);
+  font-size: 80%;
+  opacity: 1;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: $gray-100;
+  border-radius: 1.5rem;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 1.5rem;
+  background-color: $gray-100;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scrollbarColor, $primary);
+  border-radius: 1.5rem;
+  border: 1px solid $gray-100;
+}
+
+.cursor-pointer{cursor: pointer;}

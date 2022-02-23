@@ -22,6 +22,8 @@
 
     <!-- JS Default FIles -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
     <!-- JS Plugins -->
     <script src="assets/js/swiper-bundle-8.6.min.js"></script>
     <script src="assets/js/avatar-solution.js"></script>
@@ -29,8 +31,8 @@
 
 <body>
     <main class="main-wrapper">
-        
-        <!-- preloader  -->
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
         <div id="preloader">
             <div id="avs-preloader" class="avs-preloader">
                 <div class="animation-preloader">
@@ -69,12 +71,66 @@
                 </div>
             </div>
         </div>
-        <!-- preloader end -->
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
 
         <!-- // HEADER START ======== //
         // ========================== -->
         <header id="header-sticky" class="header">
-            <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/header/logo.svg" alt=""></a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-offcanvas" aria-controls="mobile-offcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Consulting</a></li>
+                        <li class="nav-item active-menu">
+                            <a class="nav-link" href="index.html">
+                                Education
+                                <i class="fal fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="index.html">Property 01</a></li>
+                                <li><a href="index-2.html">Property 02</a></li>
+                                <li><a href="index-3.html">Property 03</a></li>
+                                <li><a href="#">Property 04</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Subscriptions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="btn btn-secondary px-3 text-white rounded-3">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled navbar-nav-right">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link position-relative">
+                                <i class="fas fa-shopping-cart"></i>
+                                <sup class="badge bg-danger">13</sup>
+                            </a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+
+
+
+
+
+
+            <div class="container d-none">
                 <!-- Header Wrapper Start  -->
                 <div class="header-wrapper">
 
@@ -132,7 +188,7 @@
 
         <!-- //Start OffCanvas -->
         <!-- Offcanvas Start -->
-        <aside class="mobile-header-active offcanvas offcanvas-start" id="offcanvasMenu">
+        <aside class="mobile-header-active offcanvas offcanvas-start" tabindex="-1" id="mobile-offcanvas" aria-labelledby="mobile-offcanvasLabel">
 
             <div class="offcanvas-header">
                 <!-- Offcanvas Logo Start -->
@@ -141,7 +197,7 @@
                 </div>
                 <!-- Offcanvas Logo End -->
 
-                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
+                <button type="button" class="btn close-btn" data-bs-dismiss="offcanvas"><i class="fal fa-times-circle"></i></button>
 
             </div>
             <div class="offcanvas-body">
@@ -168,24 +224,25 @@
         </aside>
         <!-- Offcanvas End -->
 
+
         <!-- // Start Hero Section -->
-        <section class="hero-area" style="background-image: url('assets/img/hero/hero-bg.png')">
+        <section class="hero-area py-7" style="background-image: url('assets/img/hero/hero-bg.png')">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                    <div class="col-xl__6 col-lg__6">
-                        <div class="hero-area__banner mb__50" data-aos="fade-in" data-aos-delay="1000">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="hero-area__banner mb-50" data-aos="fade-in" data-aos-delay="1000">
                             <img src="assets/img/hero/banner.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xl__6 col-lg__6 order-lg__first">
-                        <div class="hero-area__content text__center text-lg__start pb__30">
-                            <h1 class="text__uppercase lh__xs ls__xs fw__regular text__primary mb__50">Looking to grow your ECE service?</h1>
-                            <div class="col-lg__11 mb__60 pl-lg__5">
-                                <p class="fw__bold fs__2xl lh__md">Our qualified consultants bridge the gap between business and education, bringing you an in-depth 360° service.</p>
+                    <div class="col-xl-6 col-lg-6 order-lg-first">
+                        <div class="hero-area-content text-center text-lg-start pb-30">
+                            <h1 class="text-uppercase lh-xs ls-xs fw-regular text-primary mb-50">Looking to grow your ECE service?</h1>
+                            <div class="col-lg-11 mb-60 pl-lg-5">
+                                <p class="fw-bold fs-2xl lh-md">Our qualified consultants bridge the gap between business and education, bringing you an in-depth 360° service.</p>
                             </div>
-                            <div class="hero-area__buttons d-flex justify-content-center justify-content-lg-start gap__30 flex-wrap">
-                                <a href="#" class="btn btn__primary">Meet the team</a>
-                                <a href="#" class="btn btn__primary-outline">Contact Us</a>
+                            <div class="hero-area-buttons d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
+                                <a href="#" class="btn btn-primary"><span>Meet the team</span></a>
+                                <a href="#" class="btn btn-outline-primary"><span>Contact Us</span></a>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,168 @@
+// NAVIGATION
+.navbar-nav {
+    display: flex;
+    list-style: none;
+
+    li {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        a {
+            font-size: $fs-md;
+            font-weight: 600;
+            color: $gray-600;
+            white-space: nowrap;
+        }
+
+        &.active-menu {
+
+            & > a {
+                color: $primary;
+            }
+
+            & > .menu-icon  {
+
+                &::after {
+                    color: $primary;
+                }
+            }
+        }
+
+        &:hover {
+
+            & > .menu-icon,
+            & > a {
+                color: $primary;
+
+                &::after {
+                    color: $primary;
+                }
+            }
+
+
+            & .sub-menu {
+                opacity: 1;
+                visibility: visible;
+                top: 100%;
+            }
+        }
+
+        & .menu-icon {
+
+            &::after {
+                content:"\f107";
+                font-family: $ff-fa;
+                font-size: rem(15px);
+                color: $white;
+                margin-left: 5px;
+                transition: $transition-base;
+            }
+        }
+
+        & .sub-menu {
+            position: absolute;
+            top: 110%;
+            left: 0;
+            width: 270px;
+            background: $white;
+            box-shadow: 0 2px 29px rgba(0, 0, 0, .05);
+            padding: 20px 0;
+            border-radius: 5px;
+            z-index: 99;
+            border-top: 2px solid $primary;
+            opacity: 0;
+            visibility: hidden;
+            transition: $transition-base;
+            list-style: none;
+
+            & li {
+                padding: 0;
+
+                & a {
+                    padding: rem(5px) rem(30px);
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $gray-900;
+                    text-transform: capitalize;
+                    display: block;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: $primary;
+                        width: 10px;
+                        height: 2px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: $transition-base;
+
+                    }
+                }
+
+                &.active {
+
+                    & > a {
+                        color: $primary;
+                        padding-left: 37px;
+
+                        &::before {
+                            opacity: 1;
+                            visibility: visible;
+                            left: 15px;
+                        }
+                    }
+                }
+
+                &:hover {
+
+                    & > a {
+                        padding-left: 37px;
+                        color: $primary;
+
+                        &::before {
+                            opacity: 1;
+                            visibility: visible;
+                            left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // NAVBAR RIGHT
+    &-right{
+        display: inline-flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        li a{
+            position: relative;
+            font-size: $fs-3xl;
+            color: $gray-600;
+            padding: rem(15px) rem(12px);
+            
+            sup{
+                padding: rem(0px) rem(5px);
+                font-weight: 400;
+                font-size: $fs-xs;
+                border-radius: 50em;
+                position: absolute;
+                right: rem(-3px);
+                top: rem(15px);
+                min-width: rem(20px);
+                height: rem(20px);
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -35,9 +35,9 @@
 			const left = document.getElementById("header-sticky");
 
 			if (left.scrollTop > 50 || self.pageYOffset > 50) {
-				left.classList.add("header__sticky")
+				left.classList.add("sticky")
 			} else {
-				left.classList.remove("header__sticky");
+				left.classList.remove("sticky");
 			}
 		}
     }
