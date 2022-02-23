@@ -1,3 +1,8 @@
+// Google Fonts
+
+// Button Contrast
+$min-contrast-ratio: 3;
+
 // COLORS
 $primary:  #008BAD;
 $secondary:#9BDBF3;
@@ -19,29 +24,39 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 // FONT SIZES
-$fs-xs:   rem(12px);
-$fs-sm:   rem(14px);
-$fs-md:   rem(16px);
-$fs-lg:   rem(18px);
-$fs-xl:   rem(20px);
-$fs-2xl:  rem(25px);
-$fs-3xl:  rem(30px);
-$fs-4xl:  rem(35px);
-$fs-5xl:  rem(45px);
-$fs-6xl:  rem(65px);
+// $fs-xs:   rem(12px);
+// $fs-sm:   rem(14px);
+// $fs-md:   rem(16px);
+// $fs-lg:   rem(18px);
+// $fs-xl:   rem(20px);
+// $fs-2xl:  rem(25px);
+// $fs-3xl:  rem(30px);
+// $fs-4xl:  rem(35px);
+// $fs-5xl:  rem(45px);
+// $fs-6xl:  rem(65px);
+$fs-xs:   12px;
+$fs-sm:   14px;
+$fs-md:   16px;
+$fs-lg:   18px;
+$fs-xl:   20px;
+$fs-2xl:  25px;
+$fs-3xl:  30px;
+$fs-4xl:  35px;
+$fs-5xl:  45px;
+$fs-6xl:  65px;
 
 // SIZES LIST
 $sizes-list : (
-    "xs": $fs-xs,
-    "sm": $fs-sm,
-    "md": $fs-md,
-    "lg": $fs-lg,
-    "xl": $fs-xl,
-    "2xl": $fs-2xl,
-    "3xl": $fs-3xl,
-    "4xl": $fs-4xl,
-    "5xl": $fs-5xl,
-    "6xl": $fs-6xl,
+  "xs": $fs-xs,
+  "sm": $fs-sm,
+  "md": $fs-md,
+  "lg": $fs-lg,
+  "xl": $fs-xl,
+  "2xl": $fs-2xl,
+  "3xl": $fs-3xl,
+  "4xl": $fs-4xl,
+  "5xl": $fs-5xl,
+  "6xl": $fs-6xl,
 ) !default;
 
 
@@ -84,3 +99,8 @@ $ff-list: (
 
 // NAVBAR
 $navbar-nav-link-padding-x: rem(17px);
+
+
+// Button
+$btn-padding-y: rem(10px);
+$btn-padding-x: rem(20px);

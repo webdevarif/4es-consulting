@@ -1,0 +1,27 @@
+.footer{
+    position: relative;
+    --footer-gap: 230px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: calc(var(--footer-gap) * -1);
+    z-index: 99;
+    padding: var(--section-padding, rem(220px) 0px rem(40px));
+    overflow: hidden;
+    @include media-breakpoint-up(xxl){
+        --section-padding: 23vh 0 6vh;
+    }
+    @include media-breakpoint-up(lg){
+        --footer-gap: #{rem(150px)};
+    }
+
+    input{
+        @include placeholder{
+            color: $gray-300;
+        }
+    }
+
+    a, a:hover{
+        color: inherit;
+    }
+}

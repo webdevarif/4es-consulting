@@ -1,10 +1,9 @@
 .section__ece{
 
-    &-single{
-        margin-bottom: 90px;
+    .single-item{
         @include media-breakpoint-up(lg){
-            padding-left: 60px;
-            padding-right: 50px;
+            padding-left: 53px;
+            padding-right: 40px;        
         }
     }
 

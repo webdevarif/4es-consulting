@@ -8,11 +8,13 @@
 
     @include media-breakpoint-up(xl){
         // --section-subscribeus-padding: 31em 0 17em
-        --section-subscribeus-padding: 51vh 0 29vh
+        --section-subscribeus-padding: 52vh 0 29vh;
     }
 
 
-    .form__control::placeholder{
-        color: $white;
+    input{
+        @include placeholder{
+            color: $gray-300;
+        }
     }
 }
