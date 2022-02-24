@@ -12907,7 +12907,7 @@ h6, .h6 {
 .footer {
   position: relative;
   --footer-gap: 230px;
-  background-position: bottom;
+  background-position: var(--footer-bg-position, bottom);
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: calc(var(--footer-gap) * -1);
@@ -12923,6 +12923,11 @@ h6, .h6 {
 @media (min-width: 992px) {
   .footer {
     --footer-gap: 9.375rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer {
+    --footer-bg-position: top left;
   }
 }
 .footer input.placeholder {

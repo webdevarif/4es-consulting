@@ -1,7 +1,7 @@
 .footer{
     position: relative;
     --footer-gap: 230px;
-    background-position: bottom;
+    background-position: var(--footer-bg-position, bottom);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: calc(var(--footer-gap) * -1);
@@ -14,13 +14,15 @@
     @include media-breakpoint-up(lg){
         --footer-gap: #{rem(150px)};
     }
+    @include media-breakpoint-down(md){
+        --footer-bg-position: top left;
+    }
 
     input{
         @include placeholder{
             color: $gray-300;
         }
     }
-
     a, a:hover{
         color: inherit;
     }
