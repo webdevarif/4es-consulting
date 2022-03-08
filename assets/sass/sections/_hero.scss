@@ -7,3 +7,9 @@
         height: 100vh;
     }
 }
+
+.hero-section-height{
+    @include media-breakpoint-up(xl){
+        height: var(--hero-section-height, 75vh);
+    }
+}

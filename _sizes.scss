@@ -1,9 +1,0 @@
-@each $size in (25, 50, 75, 100) {
-    .w-#{$size}{width: calc(#{$size} * 1%) !important;}
-    .h-#{$size}{height: calc(#{$size} * 1%) !important;}
-    .min-h-#{$size}{min-height: calc(#{$size} * 1%) !important;}
-    .vh-#{$size}{height: calc(#{$size} * 1vh) !important;}
-    .min-vh-#{$size}{min-height: calc(#{$size} * 1vh) !important;}
-
-    
-}

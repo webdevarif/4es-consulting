@@ -29,6 +29,13 @@ h6, .h6{font-size: var(--heading-size, $fs-md);}
   font-weight: 500 !important;
 }
 
+// FONT FAMILY
+@each $font, $family in $ff-list {
+  .ff-#{$font}{
+    font-family: $family;
+  }
+}
+
 // LINE HEIGHT
 @each $key, $value in ( 'xs': 1, 'sm': 1.2, 'md':1.4, 'lg':1.8, 'xl':2, '2xl': 2.3, '3xl': 2.5) {
   .lh-#{$key}{line-height: $value !important;}

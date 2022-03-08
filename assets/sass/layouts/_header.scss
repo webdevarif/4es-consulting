@@ -5,6 +5,13 @@
     width: 100%;
     z-index: $zindex-sticky;
 
+    // Brand
+    .navbar-brand{
+        @include media-breakpoint-down(lg){
+            max-width: 130px;
+        }
+    }
+
     // Header Sticky
     .sticky {
         background: $white;
@@ -17,43 +24,33 @@
     .btn{
         min-width: 1px;
     }
-    // // Header Wrapper 
-    // &-wrapper {
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: space-between;
-    //     position: relative;
-    //     padding: var(--header-padding, 25px 0);
-    // }
-    // // Header Toggle
-    // &-toggle  button {
-    //     background: none;
-    //     border: 0;
-    //     padding: 0;
 
-    //     & span {
-    //         width: 25px;
-    //         height: 2px;
-    //         background: $primary;
-    //         margin: 5px 0;
-    //         display: block;
-
-    //         &:last-child {
-    //             margin-bottom: 0;
-    //         }
-    //     }
-    // }
+    &__toggler{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 7px;
+        background: transparent;
+        border: 0;
 
 
-    // // Header Logo 
-    // &__logo  img {
-    //     width: 190px;
-    //     max-width: 40vw;
-    // }
-
+        .icon-bar{
+            width: 30px;
+            height: 2px;
+            background: $white;
+            display: block;
+        }
+    }
 }
 
 
+// Close Button
+.btn.close-btn{
+    min-width: 30px;
+    font-size: 23px;
+    border: 1px solid $gray-400;
+    padding: 5px 14px;
+    line-height: 1;
+}
 
 
 
