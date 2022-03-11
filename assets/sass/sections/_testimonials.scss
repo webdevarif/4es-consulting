@@ -41,3 +41,46 @@
         right: var(--swiper-arrow-right-position, var(--swiper-arrow-position, 0));
     }
 }
+
+
+
+.default-arrow{
+    position: relative;
+
+    @include media-breakpoint-up(lg){
+        --swiper-arrow-position: -70px;
+    }
+    
+    .arrow-icon{
+        --arrow-icon-size: #{rem(50px)};
+        background: $success;
+        color: $white;
+        min-width: var(--arrow-icon-size);
+        width: var(--arrow-icon-size);
+        height: var(--arrow-icon-size);
+        font-size: $fs-3xl;
+        border-radius: 50em;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: $zindex-elevate;
+        transition: $transition-base;
+        
+        @include media-breakpoint-up(lg){
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:hover{
+            background: darken($success, 8%);
+        }
+    }
+    .arrow-prev{
+        left: var(--swiper-arrow-left-position, var(--swiper-arrow-position, 0));
+    }
+    .arrow-next{
+        right: var(--swiper-arrow-right-position, var(--swiper-arrow-position, 0));
+    }
+}

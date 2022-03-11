@@ -191,11 +191,24 @@ textarea:focus {
     width: 100%;
     height: 100%;
     background-color: $primary;
-    left: 0; bottom: 1.5rem;
+    left: 0; bottom: 5em;
     z-index: -1;
   }
 
   @include media-breakpoint-up(lg){
     --heading-top-spaces: 10rem;
+  }
+}
+
+
+
+// Section Padding
+.section-padding{
+
+
+  // Popular Products
+  &--popular-products{
+    padding-top: 150px;
+    padding-bottom: 250px;
   }
 }

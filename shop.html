@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Es-Consulting || Html Template</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- Css FIles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- JS Default FIles -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <!-- JS Plugins -->
+    <script src="assets/js/swiper-bundle-8.6.min.js"></script>
+    <script src="assets/js/avatar-solution.js"></script>
+
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <main class="overflow-hidden">
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
+        <div id="preloader">
+            <div id="avs-preloader" class="avs-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="4" class="letters-loading">4</span>
+                        <span data-text-preloader="E" class="letters-loading">E</span>
+                        <span data-text-preloader="S" class="letters-loading">S</span>
+                        <span data-text-preloader="C" class="letters-loading">C</span>
+                        <span data-text-preloader="O" class="letters-loading">O</span>
+                        <span data-text-preloader="N" class="letters-loading">N</span>
+                        <span data-text-preloader="S" class="letters-loading">S</span>
+                        <span data-text-preloader="U" class="letters-loading">U</span>
+                        <span data-text-preloader="L" class="letters-loading">L</span>
+                        <span data-text-preloader="T" class="letters-loading">T</span>
+                        <span data-text-preloader="I" class="letters-loading">I</span>
+                        <span data-text-preloader="N" class="letters-loading">N</span>
+                        <span data-text-preloader="G" class="letters-loading">G</span>
+                    </div>
+                </div>
+                <div class="loader">
+                    <div class="row">
+                        <div class="col-3 loader-section section-left">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-left">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-right">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-right">
+                            <div class="bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
+
+        <!-- // HEADER START ======== //
+        // ========================== -->
+        <header id="header-sticky" class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/header/logo-white.svg" alt=""></a>
+
+                  <button class="d-lg-none header__toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-offcanvas" aria-controls="mobile-offcanvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Consulting</a></li>
+                        <li class="nav-item active-menu">
+                            <a class="nav-link" href="index.html">
+                                Education
+                                <i class="fal fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="index.html">Property 01</a></li>
+                                <li><a href="index-2.html">Property 02</a></li>
+                                <li><a href="index-3.html">Property 03</a></li>
+                                <li><a href="#">Property 04</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Subscriptions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="btn btn-secondary py-2 px-3 text-white rounded-3">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled navbar-nav-right">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light position-relative">
+                                <i class="fas fa-shopping-cart"></i>
+                                <sup class="badge bg-danger">13</sup>
+                            </a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <!-- Header End -->
+
+
+        <!-- //Start OffCanvas -->
+        <!-- Offcanvas Start -->
+        <aside class="mobile-header-active offcanvas offcanvas-start" tabindex="-1" id="mobile-offcanvas" aria-labelledby="mobile-offcanvasLabel">
+
+            <div class="offcanvas-header">
+                <!-- Offcanvas Logo Start -->
+                <div class="offcanvas-logo mb-5 text-center">
+                    <a href="index.html"><img src="assets/img/header/logo.png" alt=""></a>
+                </div>
+                <!-- Offcanvas Logo End -->
+
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-menu">
+                    <ul class="main-menu">
+                        <li class="active-menu">
+                            <a href="index.html">Property Search</a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="index.html">Property 01</a></li>
+                                <li><a href="index-2.html">Property 02</a></li>
+                                <li><a href="index-3.html">Property 03</a></li>
+                                <li><a href="#">Property 04</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Agent Search</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Selling</a></li>
+                        <li><a href="#">Buying</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Join eXp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <!-- Offcanvas End -->
+
+        <!-- // START HEADING SPACING -->
+        <section class="heading-spaces bg-left-bottom pb-7" style="background-image: url('assets/img/heading/heading-space.svg');">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5 col-md-6">
+                        <div class="heading-spaces__content text-center text-white">
+                            <h1 class="fs-5xl mb-4 text-white">Shop</h1>
+                            <p class="fs-2xl">We offer a great selection of <br class="d-none d-lg-block">stationary & teaching supplies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // END HEADING SPACING -->
+
+
+        <!-- // Start Products Section -->
+        <section class="products-area py-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-breadcrumb__heading mb-5">
+                            <h4 class="fs-lg-3xl fw-bold ff-primary">Shop our products by category</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-xl-3">
+                        <div class="products-area__sidebar">
+                            <ul class="product-filters">
+                                <li class="hassubmenu">
+                                    <a href="#">Categories</a>
+                                    <span class="hassubmenu__end-icon">
+                                        <i class="fal fa-angle-down"></i>
+                                    </span>
+                                    <ul class="subcat">
+                                        <li><a href="#">Shop all</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Child Development</a></li>
+                                        <li><a href="#">Design</a></li>
+                                        <li><a href="#">ECE Business</a></li>
+                                        <li><a href="#">ECE curriculum</a></li>
+                                        <li><a href="#">Environment for learning</a></li>
+                                        <li><a href="#">Health & Safety</a></li>
+                                        <li><a href="#">Staff wellbeing</a></li>
+                                        <li><a href="#">Sustainability</a></li>
+                                        <li><a href="#">Teacher Education</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Size</a>
+                                </li>
+                                <li class="hassubmenu">
+                                    <a href="#">Colors</a>
+                                    <span class="hassubmenu__end-icon">
+                                        <span class="num">3</span>
+                                    </span>
+                                    <ul class="ps-3 list-inline">
+                                        <li class="list-inline-item">
+                                            <div class="color-check">
+                                                <input type="radio" name="colors" id="color-check__01" autocomplete="off">
+                                                <label for="color-check__01" data-bg="red"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="color-check">
+                                                <input type="radio" name="colors" id="color-check__02" autocomplete="off">
+                                                <label for="color-check__02" data-bg="#0A468E"></label>
+                                            </div>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <div class="color-check">
+                                                <input type="radio" name="colors" id="color-check__03" autocomplete="off">
+                                                <label for="color-check__03" data-color="#000"></label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="hassubmenu">
+                                    <a href="#">Features</a>
+                                    <span class="hassubmenu__end-icon">
+                                        <i class="fal fa-angle-down"></i>
+                                    </span>
+                                    <ul class="subcat">
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="shop_all">
+                                                <label class="form-check-label" for="shop_all">
+                                                    Shop all
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="business">
+                                                <label class="form-check-label" for="business">
+                                                    Business
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="child_development">
+                                                <label class="form-check-label" for="child_development">
+                                                    Child Development
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="design">
+                                                <label class="form-check-label" for="design">
+                                                    Design
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="ece_business">
+                                                <label class="form-check-label" for="ece_business">
+                                                    ECE Business
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="hassubmenu">
+                                    <a href="#">Type of Climb</a>
+                                    <span class="hassubmenu__end-icon">
+                                        <i class="fal fa-angle-down"></i>
+                                    </span>
+                                    <ul class="subcat">
+                                        <li><a href="#">Shop all</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Child Development</a></li>
+                                        <li><a href="#">Design</a></li>
+                                        <li><a href="#">ECE Business</a></li>
+                                        <li><a href="#">ECE curriculum</a></li>
+                                        <li><a href="#">Environment for learning</a></li>
+                                        <li><a href="#">Health & Safety</a></li>
+                                        <li><a href="#">Staff wellbeing</a></li>
+                                        <li><a href="#">Sustainability</a></li>
+                                        <li><a href="#">Teacher Education</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xl-9">
+                        <div class="products-area__list">
+                            <div class="row g-4">
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Product Item -->
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // End Product-section Section -->
+
+        <!-- // Start Popular Products Section -->
+        <section class="popular-products section-padding--popular-products bg-center-top" style="background-image: url('assets/img/bg/products-bg.svg');">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-heading mb-6 text-center" data-aos="fade-up" data-aos-delay="100">
+                            <h6 class="ff-primary text-uppercase mb-3">Popular products</h6>
+                            <h3 class="ls-sm">You might be interested in our bestsellers</h3>
+                            <img src="assets/img/heading/line.svg" class="line" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Slider main container -->
+                        <div class="swiper-container default-arrow" data-aos="fade-in" data-aos-delay="100">
+                            <div class="swiper mb-4" data-xl-items="4" data-lg-items="3" data-md-items="2" data-sm-items="2" data-autoplay="false" data-prev=".popular-products-arrow--prev" data-next=".popular-products-arrow--next" avs-slider>
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Start Slides -->
+                                <div class="swiper-slide">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" class="img-fluid w-100 rounded-4" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Start Slides -->
+                                <div class="swiper-slide">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" class="img-fluid w-100 rounded-4" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Start Slides -->
+                                <div class="swiper-slide">
+                                    <div class="products-area__single">
+                                        <div class="products-area__thumb mb-3">
+                                            <img src="assets/img/products/products-02.jpg" class="img-fluid w-100 rounded-4" alt="">
+                                        </div>
+                                        <div class="products-area__content">
+                                            <h4 class="fs-lg"><a href="#">2022 Administration Diary</a></h4>
+                                            <p>$47.50</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Slides -->
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="popular-products-arrow--prev arrow-icon arrow-prev fal fa-angle-left"></div>
+                            <div class="popular-products-arrow--next arrow-icon arrow-next fal fa-angle-right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // End Popular Products Section -->
+
+        <!-- //Start Footer Section -->
+        <footer class="footer text-white" style="--footer-gap: 150px; background-image: url('assets/img/bg/footer-bg-2.svg')">
+            <div class="container">
+                <div class="row gy-5 align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="about-content"> 
+                            <!-- Headings -->
+                            <div class="section-heading mb-5" data-aos="fade-up" data-aos-delay="100">
+                                <h6 class="text-white ff-primary text-uppercase mb-3">GET in touch with us</h6>
+                                <h3 class="fs-4xl text-white lh-sm fw-regular">Contact our passionate team today for specialist advise.</h3>
+                            </div>
+                            <div class="about-us-buttons d-flex gap-3 gap-lg-5" data-aos="fade-up" data-aos-delay="300">
+                                <button class="btn btn-danger">Get in touch</button>
+                                <button class="btn btn-light text-primary">Make a booking </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                        <div class="about-us-banner text-center text-lg-end">
+                            <img src="assets/img/about/consultation-banner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Middle Line -->
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="border-3 border-white my-6" style="height: 2px;" />
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Footer Widget -->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="footer-widget mb-4 text-center text-lg-start" data-aos="fade-in" data-aos-delay="200">
+                            <div class="footer-logo mb-4">
+                                <img src="assets/img/footer/logo.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-lg-3 col-md-7 order-lg-3">
+                        <div class="footer-widget mb-4">
+                            <form>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="w-100 rounded-3 text-white fs-xl form-control bg-transparent border-2" placeholder="Name">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="w-100 rounded-3 text-white fs-xl form-control bg-transparent border-2" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-light w-100">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="footer-widget mb-4">
+                            <div class="row">
+                                <!-- Single Col -->
+                                <div class="col-sm-5">
+                                    <h6 class="ff-primary mb-3 text-white">Call Us</h6>
+                                    <ul class="list-unstyled mb-4">
+                                        <li>
+                                            <div><strong>Email Us</strong></div>
+                                            <a href="mailto:info@4es.nz">info@4es.nz</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Single Col -->
+                                <div class="col-sm">
+                                    <ul class="list-unstyled">
+                                        <li class="lh-2xl"><a href="#">Consulting</a></li>
+                                        <li class="lh-2xl"><a href="#">Subscriptions</a></li>
+                                        <li class="lh-2xl"><a href="#">Education</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Single Col -->
+                                <div class="col-sm">
+                                    <ul class="list-unstyled">
+                                        <li class="lh-2xl"><a href="#">Blog</a></li>
+                                        <li class="lh-2xl"><a href="#">Shop</a></li>
+                                        <li class="lh-2xl"><a href="#">About us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="list-social list-inline text-center text-lg-start">
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-lg-3">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <div class="footer-copyright">
+                                © 2021 4E’s Limited
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <ul class="list-inline list-dice-inline mb-0">
+                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                                <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <div class="footer-copyright text-center text-xl-end">
+                                Design and development by Mint Design
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- //End Footer Section -->
+
+    <!-- Plugin Js -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Es-Consulting || Html Template</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- Css FIles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- JS Default FIles -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <!-- JS Plugins -->
+    <script src="assets/js/swiper-bundle-8.6.min.js"></script>
+    <script src="assets/js/avatar-solution.js"></script>
+
+    <!-- Google Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <main class="overflow-hidden">
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
+        <div id="preloader">
+            <div id="avs-preloader" class="avs-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="4" class="letters-loading">4</span>
+                        <span data-text-preloader="E" class="letters-loading">E</span>
+                        <span data-text-preloader="S" class="letters-loading">S</span>
+                        <span data-text-preloader="C" class="letters-loading">C</span>
+                        <span data-text-preloader="O" class="letters-loading">O</span>
+                        <span data-text-preloader="N" class="letters-loading">N</span>
+                        <span data-text-preloader="S" class="letters-loading">S</span>
+                        <span data-text-preloader="U" class="letters-loading">U</span>
+                        <span data-text-preloader="L" class="letters-loading">L</span>
+                        <span data-text-preloader="T" class="letters-loading">T</span>
+                        <span data-text-preloader="I" class="letters-loading">I</span>
+                        <span data-text-preloader="N" class="letters-loading">N</span>
+                        <span data-text-preloader="G" class="letters-loading">G</span>
+                    </div>
+                </div>
+                <div class="loader">
+                    <div class="row">
+                        <div class="col-3 loader-section section-left">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-left">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-right">
+                            <div class="bg"></div>
+                        </div>
+                        <div class="col-3 loader-section section-right">
+                            <div class="bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // PRELOADER START ======== //
+        // ========================== -->
+
+        <!-- // HEADER START ======== //
+        // ========================== -->
+        <header id="header-sticky" class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/header/logo-white.svg" alt=""></a>
+
+                  <button class="d-lg-none header__toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-offcanvas" aria-controls="mobile-offcanvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Consulting</a></li>
+                        <li class="nav-item active-menu">
+                            <a class="nav-link" href="index.html">
+                                Education
+                                <i class="fal fa-angle-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="index.html">Property 01</a></li>
+                                <li><a href="index-2.html">Property 02</a></li>
+                                <li><a href="index-3.html">Property 03</a></li>
+                                <li><a href="#">Property 04</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Subscriptions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <span class="btn btn-secondary py-2 px-3 text-white rounded-3">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled navbar-nav-right">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"><i class="fas fa-user-circle"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light position-relative">
+                                <i class="fas fa-shopping-cart"></i>
+                                <sup class="badge bg-danger">13</sup>
+                            </a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+
+        <!-- //Start OffCanvas -->
+        <!-- Offcanvas Start -->
+        <aside class="mobile-header-active offcanvas offcanvas-start" tabindex="-1" id="mobile-offcanvas" aria-labelledby="mobile-offcanvasLabel">
+
+            <div class="offcanvas-header">
+                <!-- Offcanvas Logo Start -->
+                <div class="offcanvas-logo mb-5 text-center">
+                    <a href="index.html"><img src="assets/img/header/logo.png" alt=""></a>
+                </div>
+                <!-- Offcanvas Logo End -->
+
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-menu">
+                    <ul class="main-menu">
+                        <li class="active-menu">
+                            <a href="index.html">Property Search</a>
+                            <ul class="sub-menu">
+                                <li class="active"><a href="index.html">Property 01</a></li>
+                                <li><a href="index-2.html">Property 02</a></li>
+                                <li><a href="index-3.html">Property 03</a></li>
+                                <li><a href="#">Property 04</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Agent Search</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Selling</a></li>
+                        <li><a href="#">Buying</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Join eXp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <!-- Offcanvas End -->
+
+        <!-- // START HEADING SPACING -->
+        <section class="heading-spaces bg-center-bottom" style="background-image: url('assets/img/heading/heading-space.svg');"></section>
+        <!-- // END HEADING SPACING -->
+
+
+        <!-- // START BreadCrumb -->
+        <section class="section-breadcrumb pt-5 pt-lg-7">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm">
+                        <div class="section-breadcrumb__heading">
+                            <h4 class="fs-lg-3xl ff-primary">My shopping cart</h4>
+                        </div>
+                    </div>
+                    <div class="col-sm-auto">
+                        <div class="section-breadcrumb__menu">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item fw-semibold"><i class="align-middle fs-2xl fal fa-angle-left me-2"></i><span>Continue shopping</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // END BreadCrumb -->
+
+
+        <!-- // Start Product Tables -->
+        <section class="section-products py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="section-products__table shopping-cart-table">
+                        <table class="table">
+                            <thead>
+                              <tr class="border-top-0 border-start-0 border-end-0 border-2 border-primary">
+                                <th scope="col">Product</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Price</th>
+                                <th scope="col" colspan="2">Tototal</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                                <!-- Single Table Row -->
+                              <tr>
+                                <td class="py-2 product-single-item">
+                                    <div class="gap-4 d-flex align-items-center">
+                                        <div class="product-thumb">
+                                            <img src="assets/img/products/product-01.jpg" alt="">
+                                        </div>
+                                        <div class="product-content text-nowrap">
+                                            <span>Admin Diary</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-quantity-selector">
+                                    <div class="quantity-group input-group">
+                                        <span class="select-btn fal fa-minus"></span>
+                                        <input type="text" value="1" class="text-center form-control">
+                                        <span class="select-btn fal fa-plus"></span>
+                                    </div>
+                                </td>
+                                <td class="py-2 product-price">
+                                    $47.50
+                                </td>
+                                <td class="py-2 product-total text-nowrap">
+                                    $95 NZD
+                                </td>
+                                <td class="product-action">
+                                    <span class="fal fa-trash"></span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"></td>
+                                <td>
+                                    <div class="total-price">
+                                        <strong>Sub Total <br>Shipping</strong>
+                                    </div>
+                                </td>
+                                <td colspan="2" class="product-total">
+                                    <div class="text-nowrap fs-lg">
+                                        $190 NZD incl. GST
+                                        <p class="mb-0 text-dark text-opacity-50">Calculated at next step</p>
+                                    </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                        </table>
+                        <div class="button-area text-lg-end my-5 mb-lg-0">
+                            <button class="btn btn-danger px-lg-6">Secure Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // End Product Tables -->
+
+
+        <!-- //Start Footer Section -->
+        <footer class="footer text-white mt-lg-0" style="--footer-gap: 150px; background-image: url('assets/img/footer/background.png')">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget -->
+                    <div class="col-lg-3 col-md-5">
+                        <div class="footer-widget mb-4 text-center text-lg-start" data-aos="fade-in" data-aos-delay="200">
+                            <div class="footer-logo mb-4">
+                                <img src="assets/img/footer/logo.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-lg-3 col-md-7 order-lg-3">
+                        <div class="footer-widget mb-4">
+                            <form>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="w-100 rounded-3 text-white fs-xl form-control bg-transparent border-2" placeholder="Name">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="w-100 rounded-3 text-white fs-xl form-control bg-transparent border-2" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-light w-100">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Footer Widget -->
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="footer-widget mb-4">
+                            <div class="row">
+                                <!-- Single Col -->
+                                <div class="col-sm-5">
+                                    <h6 class="ff-primary mb-3 text-white">Call Us</h6>
+                                    <ul class="list-unstyled mb-4">
+                                        <li>
+                                            <div><strong>Email Us</strong></div>
+                                            <a href="mailto:info@4es.nz">info@4es.nz</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Single Col -->
+                                <div class="col-sm">
+                                    <ul class="list-unstyled">
+                                        <li class="lh-2xl"><a href="#">Consulting</a></li>
+                                        <li class="lh-2xl"><a href="#">Subscriptions</a></li>
+                                        <li class="lh-2xl"><a href="#">Education</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Single Col -->
+                                <div class="col-sm">
+                                    <ul class="list-unstyled">
+                                        <li class="lh-2xl"><a href="#">Blog</a></li>
+                                        <li class="lh-2xl"><a href="#">Shop</a></li>
+                                        <li class="lh-2xl"><a href="#">About us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="list-social list-inline text-center text-lg-start">
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <li class="list-inline-item"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-3">
+                    <div class="col-lg-3">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <div class="footer-copyright">
+                                © 2021 4E’s Limited
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <ul class="list-inline list-dice-inline mb-0">
+                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                                <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget mb-10 text-center text-lg-start">
+                            <div class="footer-copyright text-center text-xl-end">
+                                Design and development by Mint Design
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- //End Footer Section -->
+
+    <!-- Plugin Js -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

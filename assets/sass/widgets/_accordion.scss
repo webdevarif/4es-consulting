@@ -1,0 +1,19 @@
+// Default Accordion
+.default-accordion{
+    .accordion-item{
+        border: 0px;
+    }
+    .accordion-button{
+        background-color: transparent;
+        box-shadow: none;
+        border-top: 2px solid currentColor;
+
+        &:after{
+            position: absolute;
+            left: 1.5rem;
+        }
+    }
+    .accordion-button, .accordion-body{
+        padding-left: 4em;
+    }
+}

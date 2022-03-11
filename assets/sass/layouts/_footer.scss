@@ -8,6 +8,19 @@
     z-index: 99;
     padding: var(--section-padding, rem(220px) 0px rem(40px));
     overflow: hidden;
+    z-index: 1;
+
+    &:before{
+        position: absolute;
+        content: "";
+        top: 10em;
+        height: 100%;
+        width: 100%;
+        background-color: $primary;
+        z-index: -1;
+    }
+
+
     @include media-breakpoint-up(xxl){
         --section-padding: 23vh 0 6vh;
     }

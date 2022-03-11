@@ -1,6 +1,19 @@
 .bg{
     &-center-bottom{
         background-position: center bottom;
+        background-size: cover;
+    }
+    &-left-center{
+        background-position: left center;
+        background-size: cover;
+    }
+    &-left-bottom{
+        background-position: left bottom;
+        background-size: cover;
+    }
+    &-center-top{
+        background-position: center top;
+        background-size: cover;
     }
 
     &-lighter{
